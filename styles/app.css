@@ -83,6 +83,33 @@ div>p {
     font-weight: 900;
 }
 
+.companies-container {
+    margin: 3em auto 3em;
+}
+
+.download {
+    text-align: center;
+    margin: 5em auto 5em;
+}
+
+footer {
+    background-color: #F5F6F8;
+    max-height: 100%;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: hsl(171, 66%, 44%);
+    text-decoration: none;
+}
+
 @media screen and (max-width:500px) {
     body {
         text-align: center;
@@ -98,7 +125,10 @@ div>p {
     }
     .imagedevices img {
         width: 100%;
-        height: 200px;
+        height: 250px;
         margin: 20px 0 20px;
+    }
+    .companies-container div {
+        margin-bottom: 40px;
     }
 }
